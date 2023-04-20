@@ -1,0 +1,116 @@
+<!-- RMIT University Vietnam
+  Course: COSC2430 Web Programming
+  Semester: 2023A
+  Assessment: Assignment 1
+  Author: Nguyen Van Quy
+  ID: s3878636
+  Acknowledgement: 
+  Lecture1 - html1 :https://rmit.instructure.com/courses/118544/modules/items/5035310
+  Lecture2 - html2 :https://rmit.instructure.com/courses/118544/modules/items/5048535
+  Lecture3 - css1 :https://rmit.instructure.com/courses/118544/modules/items/5056338
+  Lecture4 - css2 :https://rmit.instructure.com/courses/118544/modules/items/5067828
+  Lecture5 - js1 :https://rmit.instructure.com/courses/118544/modules/items/5079548
+  Lecture6 - js2 :https://rmit.instructure.com/courses/118544/modules/items/5084877 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assest/CSS/style.css">
+    <link rel="stylesheet" href="Assest/CSS/respontive.css">
+    <link rel="stylesheet" href="Assest/themify-icons/themify-icons.css">
+
+    <script defer src="Assest/JS/js.js" type="text/javascript" ></script>
+
+    <title>Contact</title>
+</head>
+<body>
+  <header id="header">
+    <div class="logo">
+      <img src="Assest/IMG/logo.jpg" alt="Your Logo" />
+    </div>
+    <i id="mobie-menu" class="menu-icon hover ti-menu"></i>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category.html">Fiction</a></li>
+        <li><a href="category.html">Non-Fiction</a></li>
+        <li><a href="book.html">book</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="main">
+
+       <div class="title">
+        <h1>Contact us</h1>
+      </div>
+    <form>
+      <label for="contact-purpose">Contact Purpose:</label>
+      <select id="contact-purpose" name="contact-purpose">
+        <option value="sell">I want to sell books</option>
+        <option value="buy">I want to buy books</option>
+      </select>
+      <br /><br />
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <br /><br />
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" />
+      <br /><br />
+
+      <label>Contact Preference:</label>
+      <input type="checkbox" id="contact-preference-email" name="contact-preference" value="email" />
+      <label for="contact-preference-email">By email</label>
+      <input type="checkbox" id="contact-preference-phone" name="contact-preference" value="phone" />
+      <label for="contact-preference-phone">By phone</label>
+      <br /><br />
+
+      <label>Receive weekly newsletter:</label>
+      <input type="radio" id="receive-newsletter-yes" name="receive-newsletter" value="yes" checked />
+      <label for="receive-newsletter-yes">Yes</label>
+      <input type="radio" id="receive-newsletter-no" name="receive-newsletter" value="no" />
+      <label for="receive-newsletter-no">No</label>
+      <br /><br />
+
+      <label for="extra-notes">Extra Notes:</label>
+      <textarea id="extra-notes" name="extra-notes"></textarea>
+      <br /><br />
+
+      <input class="btn" type="reset" value="Reset" />
+      <input class="btn" type="submit" value="Submit" />
+    </form>
+    </div>
+    <div class="footer">
+        <nav class="footer-navigation">
+          <ul class="footer-list">
+            <li><a href="#">About Us</a>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, corporis.</p>
+            </li>
+            <li><a href="#">Privacy Policy</a>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, corporis.</p>
+            </li>
+            <li><a href="#">Terms</a>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, corporis.</p>
+            </li>
+            <li><a href="#">Copyright</a>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, corporis.</p>
+            </li>
+            <li><a class="btn" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="video">
+          <iframe width="800" height="450" src="https://www.youtube.com/embed/Ywwg_eo9z6E" title="Discover RMIT University Library: set yourself up for study success">
+          </iframe>
+        </div>
+      </div>
+</body>
+</html>

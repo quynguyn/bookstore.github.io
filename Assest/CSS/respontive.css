@@ -1,0 +1,98 @@
+@media (max-width: 960px) {
+    header {
+      display: block;
+      position: fixed;
+      height: 94px;
+      overflow: hidden;
+    }
+    nav ul {
+      display: block;
+      margin-top: 20px;
+    }
+    
+    nav ul li{
+        padding: 10px;
+        border: 1px solid #987556;
+        margin: 10px 0;
+    }
+
+        nav li:hover{
+        box-shadow: 0.4rem .4rem  rgba(102, 66, 41, 0.5);
+        }
+
+nav a:hover{
+  box-shadow: none;
+}
+  
+    header .menu-icon {
+        color: #987556;
+       font-size: 30px;
+      position: absolute;
+      right: 30px; /* adjust the distance from the right edge of the viewport */
+      top: 30px; /* adjust the distance from the bottom edge of the viewport */
+    }
+  
+    .box-container {
+      display: block;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .footer-navigation ul {
+        display: block;
+    }
+
+    .footer-navigation li{
+        display: block;
+        margin-top: 20px;
+    }
+
+    .footer-navigation li:hover{
+        box-shadow: none;
+    }
+
+
+.footer-navigation li:first-child {
+    margin-left: 10px;
+  }
+
+    .footer-navigation li:last-child{
+        border: none;
+    }
+  
+    .detail{
+        text-align: center;
+    }
+    .box1{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+        display: inline-block;
+    }
+    .box3{
+        width: 100%;
+    }
+
+    .category .subImg-container img{
+        display: inline-block;
+    }
+  
+    #mobie-menu {
+      display: block;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    form input{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+  }
